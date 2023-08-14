@@ -3,7 +3,7 @@
 It is my second serious project at the university and it's a online shop called UT Kala. (UT stands for University of Tehran and Kala means product in persian)
 
 # Parts of project
-In the [CA](https://github.com/mahdimoeini8102/ICSP_UTKala/tree/main/CA) folder you can see the description of the project. There is a [Codes](https://github.com/mahdimoeini8102/ICSP_UTKala/tree/main/Codes) folder in which there are my codes. Lastly, there is an [Executable file](https://github.com/mahdimoeini8102/ICSP_UTKala/tree/main/Executable%20file) and you can download and run it.
+In the [CA](https://github.com/mahdimoeini8102/ICSP_UTKala/tree/main/CA) folder you can see the description of the project. There is a [Codes](https://github.com/mahdimoeini8102/ICSP_UTKala/tree/main/Codes) folder in which there are my codes. Lastly, there is an [Executable file](https://github.com/mahdimoeini8102/ICSP_UTKala/tree/main/Executable%20file) and you can download and run it. There are some testcases in (TCs)[https://github.com/mahdimoeini8102/ICSP_UTKala/tree/main/TCs] that can help you to work with the program.
 
 # What is it and How it works
 This project can be the backend of an online shop that has some buyers, some sellers, and some goods that each has its own characteristics. I’m going to explain commands in which you can enter them in the terminal and work with the program.
