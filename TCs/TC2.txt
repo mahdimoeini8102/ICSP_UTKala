@@ -1,0 +1,15 @@
+TC2: You have not to be able to rating a removed goods
+signup s1 p seller
+login s1 p seller
+add_goods g1 5 5
+logout
+signup b1 p buyer
+login b1 p buyer
+deposit 5000
+buy g1 2 s1 
+logout
+login s1 p seller
+remove_goods g1 
+logout
+login b1 p buyer
+rate_goods g1 s1 4

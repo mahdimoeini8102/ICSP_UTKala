@@ -1,0 +1,15 @@
+TC3: A buyer buyed 3 times g1. (S)He can rate each time to this goods (At the last of this case, g1's rate must be 3.33). Now test this case without "rate_goods g1 s1 3" again. 
+signup s1 p seller
+login s1 p seller
+add_goods g1 10 10
+logout
+signup b1 p buyer
+login b1 p buyer
+deposit 5000
+buy g1 1 s1 
+rate_goods g1 s1 2
+buy g1 2 s1 
+rate_goods g1 s1 3
+buy g1 3 s1 
+rate_goods g1 s1 5
+show_goods

@@ -1,0 +1,1 @@
+TC4: Freeing operation must be work correctly

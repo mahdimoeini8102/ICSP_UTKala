@@ -1,0 +1,8 @@
+TC12: "s2" shouldn't be able to add "g1"
+signup s1 p seller
+login s1 p seller
+add_goods g1 10 10
+logout
+signup s2 p seller
+login s2 p seller
+add_goods g1 10 10

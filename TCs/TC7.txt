@@ -1,0 +1,11 @@
+TC7: Rateing must be between 1 to 5
+signup s1 p seller
+login s1 p seller
+add_goods g1 1 1
+signup b1 p buyer
+login b1 p buyer
+deposit 10
+buy g1 s1
+rate_goods g1 s1 6 --> error
+rate_goods g1 s1 0 --> error
+rate_goods g1 s1 5

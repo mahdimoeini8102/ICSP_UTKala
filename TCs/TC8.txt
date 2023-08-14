@@ -1,0 +1,18 @@
+TC8: rating to a goods removed and added again (1)
+signup s1 p seller
+login s1 p seller
+add_goods g1 10 10
+logout
+signup b1 p buyer
+login b1 p buyer
+deposit 1000
+buy g1 1 s1 
+rate_goods g1 s1 1
+logout
+login s1 p seller
+remove_goods g1 
+add_goods g1 20 20
+logout
+login b1 p buyer
+buy g1 1 s1 
+rate_goods g1 s1 5

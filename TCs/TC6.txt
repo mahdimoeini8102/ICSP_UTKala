@@ -1,0 +1,6 @@
+TC6: Line 4 (add_goods g1 2 2) should be caused an error but previous and next lines don't have any problems.
+signup s1 p seller
+login s1 p seller
+add_goods g1 1 1
+add_goods g1 2 2
+add_goods g1 1 3

@@ -1,0 +1,35 @@
+TC4: A buyer have not to be able to buy a goods with low rates. At the end of this case "buy" command should'nt work.
+signup s1 p seller
+login s1 p seller
+add_goods g1 100 100
+logout
+signup b1 p buyer
+login b1 p buyer
+deposit 10000
+buy g1 1 s1 
+rate_goods g1 s1 0
+logout
+signup b2 p buyer
+login b2 p buyer
+deposit 10000
+buy g1 1 s1 
+rate_goods g1 s1 1
+logout
+signup b3 p buyer
+login b3 p buyer
+deposit 10000
+buy g1 1 s1 
+rate_goods g1 s1 1
+logout
+signup b4 p buyer
+login b4 p buyer
+deposit 10000
+buy g1 1 s1 
+rate_goods g1 s1 1
+logout
+signup b5 p buyer
+login b5 p buyer
+deposit 10000
+buy g1 1 s1 
+rate_goods g1 s1 1
+buy g1 1 s1 
