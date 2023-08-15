@@ -1,6 +1,6 @@
 
 # ICSP_UTKala
-It is my second serious project at the university and it's a online shop called UT Kala. (UT stands for University of Tehran and Kala means product in persian)
+It is my second serious project at the university under the supervision of Dr. Manouchehr Moradisabzevar and it's a online shop called UT Kala. (UT stands for University of Tehran and Kala means product in persian)
 
 # Parts of project
 In the [CA](https://github.com/mahdimoeini8102/ICSP_UTKala/tree/main/CA) folder you can see the description of the project. There is a [Codes](https://github.com/mahdimoeini8102/ICSP_UTKala/tree/main/Codes) folder in which there are my codes. Lastly, there is an [Executable file](https://github.com/mahdimoeini8102/ICSP_UTKala/tree/main/Executable%20file) and you can download and run it. There are some testcases in [TCs](https://github.com/mahdimoeini8102/ICSP_UTKala/tree/main/TCs) that can help you to work with the program.
